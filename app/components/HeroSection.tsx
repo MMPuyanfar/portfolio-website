@@ -10,15 +10,14 @@ export default function HeroSection() {
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-bold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400  to-pink-600">
               Hello, I'm{" "}
-            </span><br />
+            </span>
+            <br />
             <TypingAnimation />
           </h1>
           <p className="text-[#ADB7BE] mb-6 text-base sm:text-lg lg:text-xl">
-            Lorem ipsum dolor, sit amet consectetur
-            adipisicing elit. Reiciendis et eligendi alias
-            facilis delectus esse dignissimos autem sapiente
-            ratione maxime eos, accusantium ullam corporis,
-            quibusdam incidunt est. Reiciendis, ducimus ea.
+            If you want me to create a stonishing web app
+            for you, Click 'Hire Me'. Also you can know my
+            profesinoal background by downloadin my CV.
           </p>
           <div className="text-red-800">
             <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 transition-all duration-1000 hover:bg-gradient-to-tl  text-white">

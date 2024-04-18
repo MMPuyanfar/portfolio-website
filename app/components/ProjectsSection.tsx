@@ -69,7 +69,7 @@ export default function ProjectsSection() {
                   <EyeIcon className="h-10 w-10 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 cursor-pointer text-[#ADB7BE] group-hover/link:text-white" />
                 </Link>
               </div>
-              <span className="p-5 text-sm sm:text-xl bg-gray-500 text-center self-end rounded-3xl text-black mb-5">
+              <span className="p-5 text-sm sm:text-xl bg-[#ADB7BE] text-center self-end rounded-3xl text-white mb-5">
                 {project.description}
               </span>
             </div>

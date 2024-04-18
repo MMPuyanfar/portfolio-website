@@ -21,17 +21,21 @@ export default function Navbar() {
       linkText: "Contact Me",
       href: "#contact",
     },
+    {
+      linkText: 'Weather App',
+      href: '/weather-app'
+    }
   ];
   return (
-    <nav className="fixed top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-100">
-      <div className="flex flex-wrap items-center justify-between mx-auto py-5 px-4">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-[#121212] bg-opacity-100">
+      <div className="flex flex-wrap items-center justify-between mx-auto py-5 px-4 sm:px-8 xl:px-20">
         <Link href={"/"}>
           <Image
             src={"/images/logo.png"}
             width={100}
             height={100}
             alt="Logo"
-            className="ml-10 md:ml-5 "
+            className="ml-10 md:ml-5 w-20 h-20 sm:w-[100px] sm:h-[100px]"
           />
         </Link>
         <div className="mobile-menu block md:hidden mr-5 sm:mr-10">

@@ -21,12 +21,12 @@ export default function HeroSection() {
             professinoal background by downloadin my CV.
           </p>
           <div className="text-red-800">
-            <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 transition-all duration-1000 hover:bg-gradient-to-tl  text-white">
+            <Link href={'#contact'} className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 transition-all duration-1000 hover:bg-gradient-to-tl  text-white">
               Hire Me
-            </button>
-            <button className="px-6 py-3 w-full sm:w-fit rounded-full bg-transparent hover:bg-slate-800 text-white border border-white mt-3">
-              <Link href={'/CV.pdf'}>Download CV</Link>
-            </button>
+            </Link>
+            <Link href={'/CV.pdf'} className="px-6 py-3 w-full sm:w-fit rounded-full bg-transparent hover:bg-slate-800 text-white border border-white mt-3">
+              Download CV
+            </Link>
           </div>
         </div>
         <div className="col-span-5 place-self-center mt-4 lg:mt-0">
